@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     /*
-    // passo dati tramite array associativo
+    // passo dati alla view tramite array associativo
     $data = [
         'title' => 'Hello World!',
         'paragraph' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sint aliquid perspiciatis quod corrupti nostrum iusto esse cumque hic ipsam nisi dolorum omnis, vel accusamus impedit adipisci ratione aperiam?'
@@ -25,7 +25,7 @@ Route::get('/', function () {
     return view('home', $data);
     */
 
-    // passo dati senza array associativo
+    // passo dati alla view senza array associativo
     $title = 'Hello World!';
     $paragraph = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sint aliquid perspiciatis quod corrupti nostrum iusto esse cumque hic ipsam nisi dolorum omnis, vel accusamus impedit adipisci ratione aperiam?';
 
